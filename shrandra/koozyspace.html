@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KoozySpace | Shahira's Website</title>
+
+<style>
+    body {
+        margin: 0;
+        background-color: #E6D6F5;
+        font-family: Arial;
+    }
+
+    /* Header */
+    header {
+        background-color: #4B0082;
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    /* Back Button */
+    .back-home {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background-color: white;
+        color: #4B0082;
+        padding: 10px 15px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .back-home:hover {
+        transform: scale(1.1);
+    }
+
+    /* Container for 5 boxes */
+    .fav-container {
+        display: flex;
+        flex-wrap: wrap;         /* supaya bila kecil dia turun bawah */
+        justify-content: center; /* center semua box */
+        gap: 20px;               /* jarak box */
+        padding: 40px;
+    }
+
+    /* Each Box Style */
+    .fav-box {
+        width: 520px;
+        height: 310px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .fav-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .fav-box h3 {
+        margin-top: 0;
+        font-size: 20px;
+        color: #4B0082;
+        font-weight: bold;
+    }
+	
+	/* Profile picture */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+    footer {
+        background-color: #4B0082;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 40px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- Back button -->
+<a href="index.html" class="back-home">← Back to Home</a>
+
+<header>
+    KoozySpace ✨
+</header>
+
+<!-- 5 Favourite Boxes -->
+<div class="fav-container">
+
+    <div class="fav-box">
+        <h3>Favourite Song</h3>
+        <p>my go to songs 🎵</p>
+	 <p>(click on image to experience the muse)</p>
+	<a href="https://www.youtube.com/watch?v=ugk5pd9xgSw&list=RDugk5pd9xgSw&start_radio=1" target="_blank" class="box">
+	<img src="nadin_song.jpg" alt="nadin" class="profile-pic"></a>
+	<a href="https://www.youtube.com/watch?v=pZ1NdE69VTs&list=RDpZ1NdE69VTs&start_radio=1" target="_blank" class="box">
+	<img src="rose_song.jpg" alt="rose" class="profile-pic"></a>
+	<a href="https://www.youtube.com/watch?v=hD7vrP2yCqI&list=RDhD7vrP2yCqI&start_radio=1" target="_blank" class="box">
+	<img src="one_song.jpg" alt="one" class="profile-pic"></a>
+	<a href="https://www.youtube.com/watch?v=6MbWW_2sFPI&list=RD6MbWW_2sFPI&start_radio=1" target="_blank" class="box">
+	<img src="insomniacks_song.jpg" alt="insomniacks" class="profile-pic"></a>
+	<a href="https://www.youtube.com/watch?v=7q9Ubv3othc&list=RD7q9Ubv3othc&start_radio=1" target="_blank" class="box">
+	<img src="svt_song.jpg" alt="svt" class="profile-pic"></a>
+    </div>
+
+    <div class="fav-box">
+        <h3>Favourite Artist</h3>
+        <p>Comfort voices 🎤</p>
+	<img src="bp_gp.jpg" alt="bp" class="profile-pic">
+	<img src="one_gp.jpg" alt="one" class="profile-pic">
+	<img src="svt_gp.jpg" alt="svt" class="profile-pic">
+    </div>
+
+    <div class="fav-box">
+        <h3>Dream car</h3>
+	<p>oh~ one fine day~</p>
+        <p><img src="swift_car.jpg" alt="swift" class="profile-pic">
+	<img src="x4_car.jpg" alt="x4" class="profile-pic">
+	</p>
+    </div>
+
+    <div class="fav-box">
+        <h3>Dream Country</h3>
+        <p>i find peace🌍</p>
+	<p font size="10">click the picture to find information about my dream country~!</p>
+	<a href="https://en.wikipedia.org/wiki/England" target="_blank">
+	<img src="uk_flag.webp" alt="uk" class="profile-pic">
+	<a href="https://en.wikipedia.org/wiki/South_Korea" target="_blank">
+	<img src="korea_flag.webp" alt="korea" class="profile-pic">
+	<a href="https://en.wikipedia.org/wiki/Mecca" target="_blank">
+	<img src="mecca_img.jpg" alt="mecca" class="profile-pic">
+    </div>
+
+   
+</div>
+
+<footer>
+    © 2025 ShahiraKoozySpace. All Rights Reserved.
+</footer>
+
+</body>
+</html>
