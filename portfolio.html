@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Shahira's Website</title>
+
+<style>
+    body { 
+	margin:0; 
+	font-family:Arial; 
+	background:#E6D6F5;
+}
+    /* Header */
+header {
+    background-color: #4B0082;
+    color: white;
+    padding: 45px 20px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 50px;
+    margin: 0;
+}
+
+/* Back to Home button */
+.back-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    color: #4B0082;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    z-index: 10;
+}
+
+.back-home:hover {
+    transform: scale(1.1);
+}
+
+    .content { 
+	text-align:center; 
+	margin:40px; 
+	font-size:18px;
+ }
+.box-container {
+    display: flex;
+margin-top: 40px; 
+    gap: 30px;                 /* jarak antara box */
+    justify-content: center;   /* center alignment */
+    flex-wrap: wrap;           /* kalau kecil, turun bawah sendiri */
+}
+
+.box {
+    width: 400px;
+    min-height: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Profile picture */
+.profile-pic {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px; /* centers image horizontally */
+}
+
+    footer { 
+	background:#4B0082; 
+	color:white; 
+	text-align:center; 
+	padding:10px; 
+	margin-top:340px;
+}
+</style>
+</head>
+<body>
+
+<!-- Back to Home Button -->
+<a href="index.html" class="back-home">&#8592; Back to Home</a>
+
+<header>&#128203;My Portfolio&#128203</header>
+
+  <div class="box-container">
+    <div class="box">
+        <h3>&#128204; HighSchool Experience</h3>
+	<img src="pengawas_sek.jpg" alt="pengawas" class="profile-pic">
+        <p>Becoming a prefect is my first way in gaining experience in enhancing skills</p>
+	<br>
+	<img src="form_two.jpg" alt="form" class="profile-pic">
+	<p>when i was 14, i challenged myself to get out from comfort zone and try to work with seniors.</p>
+	<br>
+	<img src="pegawai_waran.jpg" alt="pegawai" class="profile-pic">
+	<p>Challenging myself in joining a Kadet Remaja Sekolah and received my Pegawai Waran II title at the end of my school era</p>
+	<br>
+	<img src="the_mind.jpg" alt="the" class="profile-pic">
+	<p>After having long covid break, i finally did a comeback in joining theather</p>
+	<br>
+	<img src="emcee_role.jpg" alt="emcee" class="profile-pic">
+	<p>receive an offer to become an emcee for spelling bee competition</p>
+	<br>
+	<img src="drama_komsas.jpg" alt="drama" class="profile-pic">
+	<p>Joining Drama Komsas Bahasa Melayu as a Supervisor</p>
+	<br>
+	<img src="spm_grad.jpg" alt="grad" class="profile-pic">
+	<p>Alhamdulillah, end my school era with good SPM results.</p>
+
+
+
+    </div>
+
+    <div class="box">
+        <h3>&#128204; University Experience</h3>
+	<img src="jpk_day.jpg" alt="jpk" class="profile-pic">
+        <p>After 3 semesters, i joined Jawatankuasa Perwakilan Kolej by carrying role as Exco Aduan dan Kebajikan</p>
+	<br>
+	<img src="team_jpk.jpg" alt="team" class="profile-pic">
+	<p>The team i work with through out 1 year</p>
+	<br>
+	<img src="mmk_first.jpg" alt="mmk" class="profile-pic">
+	<p>my first program as Director. Together in the picture is my team who help me through out the program process.  thx!</p>
+	<br>
+	<img src="mmk_second.jpg" alt="mmk" class="profile-pic">
+	<p>First time taking role in protocol team</p>
+	<br>
+    </div>
+</div>
+
+<footer>© 2025 ShahiraKoozySpace. All Rights Reserved.</footer>
+
+</body>
+</html>
